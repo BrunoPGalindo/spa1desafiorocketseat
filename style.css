@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: url(images/mountain1.png);
+  background-size: cover;
+}
+
+a {
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-size: 24px;
+
+  color: #C4C4CC;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  margin: 40px 719px 200px 72px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 294px;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #E1E1E6;
+
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #E1E1E6;
+  font-size: 48px;
+
+  margin-left: 102px;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #E1E1E6;
+  font-size: 48px;
+
+  margin-left: 102px;
+  margin-bottom: 16px;
+}
+
+button {
+  padding: 12px 32px;
+  font-family: 'Roboto', sans-serif;
+
+  display: grid;
+  margin: auto;
+  margin-top: 24px;
+
+  cursor: pointer;
+
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  background-color: transparent;
+
+  color: #E1E1E6;
+}
+
+button:hover {
+  background-color: #FFFFFF;
+  color: #02799D;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+
+  margin-left: 102px;
+}
